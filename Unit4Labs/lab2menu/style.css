@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+header {
+    background-color: #ecebeb;
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid lightgrey;
+    align-items: center;
+}
+
+header > button {
+    background-color: #ecebeb;
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+a {
+    background-color: #ecebeb;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    display: none;
+}
