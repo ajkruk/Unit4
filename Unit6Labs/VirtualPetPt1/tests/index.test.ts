@@ -16,7 +16,6 @@ describe("describe", () => {
         let emmet: VirtualPet = new VirtualPet("Emmet");
         expect(emmet.describe()).toBe("Name: Emmet, Hunger: 50, Happiness: 50")
     });
-
 });
 
 describe("getSatisfaction", () => {
