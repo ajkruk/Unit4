@@ -41,11 +41,8 @@
 </head>
 <body>
     <form>
-            <div id="countInput">
-                <label for="count">How Many?</label>
-                <input type="number" name="count" id="count"/>
-            </div>
-            <div id="coinInput">
+        <label>How Many?
+            <input type="number" name="count" min="0" id="count"/>
                 <label for="coinTypes">Which coin?</label>
                 <select id="coinTypes" name="coinTypes">
                     <option value="Penny">Penny</option>
@@ -53,16 +50,16 @@
                     <option value="Dime">Dime</option>
                     <option value="Quarter">Quarter</option>
                 </select>
-            </div>
+        </label>
             
         <button id="makeMoney">Make Money!</button>
     </form>
 
+    <!-- <div class="coin penny"></div>
+    <div class="coin nickel"></div>
     <div class="coin dime"></div>
-    <p id="totalMoney">Total Money: $0</p>
-    <main>
-        
-    </main>
+    <div class="coin quarter"></div> -->
+
 </body>
 <script src="script.js"></script>
 </html>
